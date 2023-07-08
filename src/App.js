@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Cart from './Components/Cart'
@@ -21,6 +21,9 @@ const App = () => {
     if (arr[ind].amount===0) arr[ind].amount=1
     setCart([...arr]);
   }
+
+  document.title = 'Shop😀More';
+
 
   return (
     <div>
