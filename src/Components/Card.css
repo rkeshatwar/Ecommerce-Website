@@ -1,0 +1,9 @@
+.Cards{
+    height: auto;
+    width: 250px;
+    background: linear-gradient(white,whitesmoke);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}

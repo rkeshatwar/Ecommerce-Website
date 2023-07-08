@@ -1,0 +1,18 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navLink{
+    cursor: pointer;
+}
+
+nav div input{
+    border-radius: 30px;
+}
